@@ -1,4 +1,4 @@
-# CODSOFT
+# CODSOFT #Internship #WebDevelopment #Task1
 MY FIRST TASK(PORTFOLIO) IN CODSOFT INTERNSHIP PROGRAM
 
 Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a frontend developer. It reflects my passion for creating user-friendly and visually appealing web applications.
