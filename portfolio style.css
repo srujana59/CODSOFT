@@ -1,0 +1,397 @@
+/* General Styles */
+.portfolio{
+    background-color: black;
+    color:white;
+}
+h1{
+    color:purple;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan;
+}
+h2{
+    color:white;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan; 
+}
+.body1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+   background-image: url('https://wallpapercave.com/wp/wp10047274.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navigation Styles */
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    padding:3px ;
+    flex:2;
+    justify-content: flex-end;
+    height:40px;
+    display: flex;
+    position: sticky;
+    top: 10;
+    z-index: 1000;
+}
+.left{
+    font-size: 25px;
+    font-family: poppines;
+    flex:1;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ff7eb3;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color:blueviolet;
+    margin: 10px 0;
+}
+
+header .button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Makes the text stand out */
+    background: #00aaff; /* Bright color (cyan) */
+    color: white; /* Contrasting text color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 8px 15px rgba(0, 170, 255, 0.5); /* Glowing effect */
+    transition: all 0.3s ease; /* Smooth animations */
+}
+/* Highlighted Button Styles */
+
+
+/* Hover Effect */
+.btn-highlight:hover {
+  background: rgb(16, 206, 206); /* Darker shade on hover */
+  box-shadow: 0 12px 20px rgba(0, 119, 204, 0.7); /* Enhanced glow */
+  transform: scale(1.1); /* Slightly enlarges the button */
+}
+header .button:hover {
+    background-color: #ff4d6d;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+social-icons a:hover {
+    color: #ff7eb3;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ... (Your existing header and hero section styles) ... */
+
+.about {
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+    background-color:plum;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 960px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.image-container {
+    flex: 1;
+    transition:  .5s ease-in;
+    filter:grayscale(100%);
+}
+.image-container:hover{
+    filter:grayscale(0%);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    padding-left: 30px; /* Adjust padding as needed */
+}
+
+.text-container h3 {
+    margin-bottom: 15px;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ... (Your existing header, hero, and about section styles) ... */
+
+.services {
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 960px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: space-between;
+}
+
+.service-card {
+    background-color: #222; /* Dark background color */
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: calc(33.33% - 20px); /* Adjust for spacing */
+    box-sizing: border-box;
+    color: #fff; /* Light text color */
+    text-align: center;
+}
+
+.icon-container {
+    background-color: #009688; /* Blue background for icons */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-container i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+.skills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    color:white;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan; 
+}
+
+.skill-section {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2.5%; /* Adjust margin for spacing */
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #009688; /* Cyan color for skill names */
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative; /* For positioning progress value absolutely */
+}
+
+.progress-value {
+    background-color: #009688; /* Progress bar color */
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.skill-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #323131;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: #009688; /* Cyan color for percentage text */
+}
+.skill-section ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.skill-section ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.projects h2 {
+    color:white;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan; 
+}
+
+.project-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space cards evenly */
+}
+
+.project-card {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.project-card h3 {
+    padding: 15px;
+    background-color: #009688;
+    color: #fff;
+    margin: 0;
+}
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    border:3px solid cyan;
+    
+    margin: 25px 50px;
+    box-shadow: 0px 0px 10px cyan,0px 0px 10px cyan inset;
+}
+
+.contact h2 {
+    color:white;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan, 0px 0px 10px cyan; 
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.body2{
+    background-color: #3c074d;
+}
+
+/* ... (Your existing styles for other elements) ... */
